@@ -7,15 +7,15 @@ using namespace std;
 
 int main() {
     double numbers[6];
-    int even_count = 0;
+    int positive_count = 0;
 
     for (double & number : numbers) {
         cin >> number;
         if (number >= 0) {
-            even_count++;
+            positive_count++;
         }
     }
 
-    cout << even_count << " valores positivos" << endl;
+    cout << positive_count << " valores positivos" << endl;
 }
 //
